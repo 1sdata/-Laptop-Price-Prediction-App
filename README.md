@@ -67,8 +67,9 @@ Tech & Dependancies:
 Data
 
 Description: Brief description of the dataset used for training the model.
-            [Laptop Price](https://www.kaggle.com/datasets/muhammetvarl/laptop-price)
-Source: https://www.kaggle.com/datasets/muhammetvarl/laptop-price
+
+[Laptop Price](https://www.kaggle.com/datasets/muhammetvarl/laptop-price)
+
 
 
 Preprocessing: Outline any preprocessing steps applied to the data before model training.
