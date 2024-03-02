@@ -58,15 +58,19 @@ if there are Invalid Data, Response will be
     "error": "Invalid Data"
 }
 
-
-Installation: Instructions on how to install and set up the app locally.
-Usage: Steps on how to use the app, including any command-line arguments or user interface instructions.
-Dependencies: List any dependencies or libraries required to run the app.
+Tech & Dependancies:
+    --> Python 3.10
+    --> Docker
+    --> Github Actions-CI/CD Pipeline
+    --> Knowledge About ML
 
 Data
 
 Description: Brief description of the dataset used for training the model.
-Source: Mention where the data was sourced from.
+            [Laptop Price](https://www.kaggle.com/datasets/muhammetvarl/laptop-price)
+Source: https://www.kaggle.com/datasets/muhammetvarl/laptop-price
+
+
 Preprocessing: Outline any preprocessing steps applied to the data before model training.
 Model
 Algorithm: Specify the machine learning algorithm(s) used for predicting laptop prices.
