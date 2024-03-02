@@ -1,4 +1,4 @@
-# -Laptop-Price-Prediction-App (https://github.com/1sdata/-Laptop-Price-Prediction-App.git)
+# Laptop-Price-Prediction-App 
 
 Laptop Price Prediction App
 
@@ -8,7 +8,7 @@ The Laptop Price Prediction App is a machine learning-powered tool designed to p
 
 ## Key Features
 
----> Price Recommendations: The app offers personalized price recommendations based on various laptop specifications, including brand, processor type, RAM size, storage capacity, screen size, graphics card, and more.
+- Price Recommendations: The app offers personalized price recommendations based on various laptop specifications, including brand, processor type, RAM size, storage capacity, screen size, graphics card, and more.
 
 - User-Friendly Interface: With an intuitive user interface, users can easily input laptop specifications and receive instant price predictions, making the app accessible to both novice and experienced users.
 
