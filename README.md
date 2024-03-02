@@ -113,12 +113,9 @@ transformed_data["GPU_manufacturer"] = self.json_file["Gpu"].split()[0]
 - Create Dockerfile that will be used to create a docker registry for the API Service.
 - Create CI/CD Pipeline Using Github Actions to Test using pytest the Inference Module and Data Validator, then deploy the Docker Image to DockerHub.
 
-## Download Image
-```
-
 ## Preprocessing:
 
- Outline any preprocessing steps applied to the data before model training.
+Outline any preprocessing steps applied to the data before model training.
 Model
 Algorithm: Specify the machine learning algorithm(s) used for predicting laptop prices.
 Evaluation: Summary of model performance metrics and validation techniques used.
@@ -132,14 +129,18 @@ Maintenance: Suggestions for maintaining and updating the app over time.
 Contributing
 Provide guidelines for contributing to the project, including how to report bugs, submit feature requests, or contribute code.
 
-License
+## License
 Specify the license under which the app and its associated code are distributed.
 
-Authors
+## Authors
 List the authors or contributors who have contributed to the development of the app.
 
-Acknowledgments
+## Acknowledgments
 Acknowledge any individuals, organizations, or resources that have contributed to the project.
 
 ## Contact
 Provide contact information for users to reach out for support, feedback, or collaboration opportunities.
+
+## Download Image
+```
+
