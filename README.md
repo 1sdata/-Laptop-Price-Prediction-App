@@ -2,32 +2,33 @@
 
 Laptop Price Prediction App
 
-Overview
+## Overview
 
 The Laptop Price Prediction App is a machine learning-powered tool designed to provide accurate price recommendations for both sellers and buyers in the laptop market. Leveraging advanced machine learning algorithms, the app analyzes key laptop specifications and market trends to generate reliable price predictions, facilitating informed decision-making for users.
 
-Key Features
+## Key Features
 
 ---> Price Recommendations: The app offers personalized price recommendations based on various laptop specifications, including brand, processor type, RAM size, storage capacity, screen size, graphics card, and more.
 
----> User-Friendly Interface: With an intuitive user interface, users can easily input laptop specifications and receive instant price predictions, making the app accessible to both novice and experienced users.
+- User-Friendly Interface: With an intuitive user interface, users can easily input laptop specifications and receive instant price predictions, making the app accessible to both novice and experienced users.
 
----> Real-Time Updates: The app continuously updates its price predictions based on the latest market data and trends, ensuring users have access to the most up-to-date information.
+- Real-Time Updates: The app continuously updates its price predictions based on the latest market data and trends, ensuring users have access to the most up-to-date information.
 
----> Performance Metrics: Users can evaluate the reliability of price predictions using performance metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+- Performance Metrics: Users can evaluate the reliability of price predictions using performance metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
 
----> Comparison Tools: Offer comparison tools to compare multiple laptops side by side, highlighting differences in specifications and predicted prices.
+- Comparison Tools: Offer comparison tools to compare multiple laptops side by side, highlighting differences in specifications and predicted prices.
 
----> User Authentication and Security: Implement user authentication mechanisms to ensure data privacy and security, especially for users who save their preferences or historical data.
+- User Authentication and Security: Implement user authentication mechanisms to ensure data privacy and security, especially for users who save their preferences or historical data.
 
----> Data Visualization: Visualize data and insights using charts, graphs, or interactive visualizations to enhance user understanding and engagement.
+- Data Visualization: Visualize data and insights using charts, graphs, or interactive visualizations to enhance user understanding and engagement.
 
-Getting Started
+## Getting Started
 
-Project Description:
+## Project Description:
 
 Machine Learning Model API Using Flask & Docker to Predict Laptop Prices based on Specs Data of Laptop, Once Running Docker Image, WSGI Server will be Running, HTTP Request Can be Send with JSON Data like below
 
+```json
 #sample
 {
     "laptop_ID": 78,
@@ -43,34 +44,33 @@ Machine Learning Model API Using Flask & Docker to Predict Laptop Prices based o
     "OpSys": "Windows 10",
     "Weight": "1.5kg"
 }
-
+```
 and Response will get back as the predicted value of Laptop Price
-
+```json
 # prediction of price
 {
     "predicted_price": 1715.9983530577372
 }
-
+```
 if there are Invalid Data, Response will be
-
+```json
 # example of invalid sample
 {
     "error": "Invalid Data"
 }
+```
+## Tech & Dependancies:
 
-Tech & Dependancies:
-    --> Python 3.10
-    --> Docker
-    --> Github Actions-CI/CD Pipeline
-    --> Knowledge About ML
+- Python 3.10
+- Docker
+- Github Actions-CI/CD Pipeline
+- Knowledge About ML
 
-Data
+## Data:
 
-Description: Brief description of the dataset used for training the model.
+Brief description of the dataset used for training the model.
 
 [Laptop Price](https://www.kaggle.com/datasets/muhammetvarl/laptop-price)
-
-
 
 Preprocessing: Outline any preprocessing steps applied to the data before model training.
 Model
