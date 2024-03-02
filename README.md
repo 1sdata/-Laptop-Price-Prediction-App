@@ -116,7 +116,9 @@ transformed_data["GPU_manufacturer"] = self.json_file["Gpu"].split()[0]
 ## Download Image
 ```
 
-Preprocessing: Outline any preprocessing steps applied to the data before model training.
+## Preprocessing:
+
+ Outline any preprocessing steps applied to the data before model training.
 Model
 Algorithm: Specify the machine learning algorithm(s) used for predicting laptop prices.
 Evaluation: Summary of model performance metrics and validation techniques used.
@@ -139,5 +141,5 @@ List the authors or contributors who have contributed to the development of the 
 Acknowledgments
 Acknowledge any individuals, organizations, or resources that have contributed to the project.
 
-Contact
+## Contact
 Provide contact information for users to reach out for support, feedback, or collaboration opportunities.
